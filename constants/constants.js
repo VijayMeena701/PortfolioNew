@@ -17,6 +17,15 @@ export const projects = [
         visit: 'https://bookclubiiitdm.netlify.com/',
         id: 1,
     },
+    {
+        title: 'Edgistify Website',
+        description: "This Web Site is built as a part of programming assesment for edgistify startup using React-JS, Styled Components, and Material-UI library. The site is a replica of the main website of edgistify with Moden Stack and Modern UI/UX with a fresh new theme.",
+        image: '/images/edgistify.webp',
+        tags: ['React', 'Styled Components', "Emotion", "Material-ui"],
+        source: 'https://github.com/VijayMeena701/Edistify',
+        visit: 'https://edgistify.netlify.app/',
+        id: 1,
+    },
     // {
     //     title: 'WebRTC App',
     //     description: "This is a code repository for Video Chat Application. The App is built using React JS and WebRTC to make a live Video Chat Application.",
@@ -41,5 +50,6 @@ export const TimeLineData = [
     { year: 2018, text: 'Started my journey', },
     { year: 2019, text: 'Worked as a freelance developer at Val-U-Pro Consultancies', },
     { year: 2020, text: 'Learnt MERN Stack and completed a few minor projects', },
+    { year: 2020, text: 'Started Working at aSociette', },
     { year: 2021, text: 'Shared my projects with the world', },
 ];

@@ -4,7 +4,7 @@ export const Section = styled.section`
   display: ${(props) => props.grid ? "grid" : "flex"};
   flex-direction: ${(props) => props.row ? "row" : "column"};
   padding: ${(props) => props.nopadding ? "0" : "32px 48px 0"} ;
-  margin: 0 auto;
+  margin: ${(props) => props.nomargin ? "unset" : "0 auto"};
   max-width: 1040px;
   box-sizing: content-box;
   position: relative;
@@ -58,6 +58,7 @@ export const SectionText = styled.p`
   color: rgba(255, 255, 255, 0.5);
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
+    width: ${(props) => props.full ? "670px" : "100%"};
     font-size: 20px;
     line-height: 32px;
     padding-bottom: 24px;
@@ -75,8 +76,8 @@ export const SectionDivider = styled.div`
   border-radius: 10px;
   background-color: #fff;
   background: ${(props) => props.colorAlt ?
-        'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
-        'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+    'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
+    'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
     margin: ${(props) => props.divider ? "4rem 0" : ""};
   @media ${(props) => props.theme.breakpoints.md} {
     width: 48px;

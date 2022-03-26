@@ -27,10 +27,10 @@ const Footer = () => {
                     <SocialIcons aria-label='github' rel="noreferrer noopener" target="_blank" href="https://www.github.com/VijayMeena701">
                         <AiFillGithub size="3rem" />
                     </SocialIcons>
-                    <SocialIcons aria-label='linked in' rel="noreferrer noopener" target="_blank" href="https://www.github.com/VijayMeena701">
+                    <SocialIcons aria-label='linked in' rel="noreferrer noopener" target="_blank" href="https://www.linkedin.com/in/vijay-meena-02920a17a/">
                         <AiFillLinkedin size="3rem" />
                     </SocialIcons>
-                    <SocialIcons aria-label='instagram' rel="noreferrer noopener" target="_blank" href="https://www.github.com/VijayMeena701">
+                    <SocialIcons aria-label='instagram' rel="noreferrer noopener" target="_blank" href="https://www.instagram.com/viju_meena/">
                         <AiFillInstagram size="3rem" />
                     </SocialIcons>
                 </SocialContainer>
